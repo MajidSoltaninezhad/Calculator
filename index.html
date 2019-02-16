@@ -6,12 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/global.css" />
+    <script type="text/javascript" src="js/init.js"></script>
+
+    <style>
+        body{
+            background-color: black ;
+        }
+        p{
+            color: white;
+        }
+        div{
+            color: yellow;
+        }
+        
+        
+    </style>
 </head>
 <body>
-    Hi World new 2018
+     <p>Hi World new 2018
     for test
-    2019
-
+    2019</p>
+ 
+    <div id="show">
+   </div>
+    <input type="text" value="" onclick="document.getElementById('show').innerHTML = welcome(this.value);"/>
+    <br><img src="p3.jpg" height="50" width="90" >
     
 </body>
 </html>
